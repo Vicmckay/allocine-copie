@@ -1,0 +1,223 @@
+/* BODY */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f2f2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* COLORS */
+.color-grey {
+  color: #b3b3b3;
+}
+
+.color-blue {
+  color: #2c82c8;
+}
+
+/* FONT-WEIGHT */
+.text-bold {
+  font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* TITLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* background-color: chartreuse; */
+}
+
+/* SECTIONS */
+section {
+  background-color: white;
+  padding: 20px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #fecc00;
+}
+header img {
+  height: 40px;
+}
+
+header span {
+  text-transform: uppercase;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.logo {
+  height: 70px;
+  padding-top: 10px;
+}
+
+.under-header {
+  padding-bottom: 10px;
+}
+
+.baseline {
+  color: #000000;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: white;
+  border-bottom: solid 1px #f2f2f2;
+}
+
+/* SECTION MOVIE */
+
+#movie img {
+  width: 200px;
+}
+
+#movie li {
+  margin-left: 20px;
+  line-height: 20px;
+}
+
+#movie ul {
+  margin-top: 20px;
+  list-style: circle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.production {
+  display: flex;
+}
+
+.liste-distribution {
+  padding-left: 10px;
+}
+
+.blocks {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.trailer {
+  background-color: black;
+  width: 180px;
+  height: 30px;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.vod {
+  background-color: #dbe3e5;
+  width: 180px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.under-picture {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.press {
+  width: 240px;
+}
+.gold-star {
+  color: gold;
+  font-size: 16px;
+}
+
+.people {
+  width: 240px;
+}
+
+.friends {
+  width: 240px;
+}
+
+/* SECTION SYNOPSIS */
+.alert {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#synopsis p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+/* CASTING */
+#casting img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 20px;
+  /* border-radius: 20px 0; */
+}
+
+.actors-pictures {
+  display: flex;
+}
+
+.actors-name {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.actors-role {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+/* FOOTER */
+footer {
+  background-color: #222222;
+  line-height: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #e6e6e6;
+}
